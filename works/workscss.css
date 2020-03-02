@@ -1,0 +1,559 @@
+body
+{
+	margin:0 auto 0;
+}
+
+.hedder
+{
+	background-image: url('../images/background.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+	background-size: cover;
+	
+	width: 100%;
+	height:360px;
+	float:right;
+
+
+}
+
+.h1in
+{
+		font-size:20;
+	
+	padding-right:100px;
+	text-shadow:  0px 1px 10px ;
+	font-family: khodkar;
+	
+}
+.heddermenu
+{
+
+	width:100%;
+	height:130px;
+	background:linear-gradient(to bottom, rgba(0,0,0,0.6)20%, rgba(0,0,0,0));
+margin:auto;
+
+	}
+.heddermenuin
+{
+	width:926px;
+	height:130px;
+	margin:0 auto 0;
+
+}
+.ulright
+{
+	margin-top:50px;
+	float:right;
+margin-right:16px;
+
+}
+.li1
+{
+	
+	list-style-type: none;
+	float:right;
+	margin-right:20px;
+	font-size:16px;
+	color:white;
+	font-family: nazanin;
+	font-weight: bold;
+}
+.li11
+{
+	list-style-type: none;
+	float:right;
+	
+	font-size:16px;
+	color:orange;
+	font-family: nazanin;
+	font-weight: bold;
+}
+.logoarea
+{
+	float:right;
+	
+	width:110px;
+	height:110px;
+	margin:2 -15 0 0 ;
+	border-radius: 50%;
+	border:2px solid orange;
+	background-color:rgba(0,0,0,0.30)
+}
+.logoimg
+{
+	width:110px;
+	height:110px;
+	
+	margin-top: 5.5px;
+	
+}
+.ulleft
+{
+	margin-top:50px;
+	float:right;
+	margin-right:25px;
+}
+.li21
+{
+	list-style-type: none;
+	float:right;
+
+	font-size:16px;
+	color:white;
+	font-family: nazanin;
+	font-weight: bold;
+		
+}
+.li2
+{
+		list-style-type: none;
+	float:right;
+	margin-right:20px;
+	font-size:16px;
+	color:white;
+	font-family: nazanin;
+	font-weight: bold;
+
+}
+.li2:hover
+{
+	color:orange;
+}
+.li21:hover
+{
+	color:orange;
+}
+.a1
+{
+
+
+	font-size:16px;
+	color:white;
+	font-family: nazanin;
+	font-weight: bold;
+	text-decoration:none;
+}
+.a11
+{
+
+
+	font-size:16px;
+	color:orange;
+	font-family: nazanin;
+	font-weight: bold;
+	text-decoration:none;
+}
+.a1:hover
+{
+	color:orange;
+}
+.a2
+{
+
+
+	font-size:16px;
+	color:white;
+	font-family: nazanin;
+	font-weight: bold;
+	text-decoration:none;
+}
+.a21
+{
+
+
+	font-size:16px;
+	color:orange;
+	font-family: nazanin;
+	font-weight: bold;
+	text-decoration:none;
+}
+.a2:hover
+{
+	color:orange;
+}
+.addrestxt
+{
+	text-align: center;
+	margin-top:190px;
+	color:orange;
+	font-family:nazanin;
+	font-weight:800;
+	
+}
+
+
+.d2
+{
+	width:100%;
+	height:1000px;
+	background-color:orange;
+	float:right;
+}
+.nemoonetitr
+{
+	color:black;
+	font-size:28px;
+	margin-top:40px;
+	font-family:nazanin;
+	font-weight: bold;
+	text-align:center;
+}
+
+.divnemoone
+{
+	width:900px;
+	height:350px;
+	margin:40 auto 0;
+
+
+}
+.nemoone1
+{
+	
+	float:right;
+	width:280px;
+	height:350px;
+	
+	background: url("../images/nemoone1.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color:white;
+		transition:background-color 1s;
+}
+.nemoone1:hover
+{
+	background-color:black;
+
+}
+.nemoone1:hover .nemoonetxt
+{
+	color:white;
+
+}
+.nemoone21
+{
+	
+	float:right;
+	width:280px;
+	height:350px;
+	
+	background: url("../images/nemoone2.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color:white;
+		transition:background-color 1s;
+}
+.nemoone21:hover
+{
+	background-color:black;
+
+}
+.nemoone21:hover .nemoonetxt
+{
+	color:white;
+
+}
+.nemoone2
+{
+	
+	float:right;
+	width:280px;
+	height:350px;
+	margin-right:30px;
+		background: url("../images/nemoone2.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color:white;
+		transition:background-color 1s;
+}
+.nemoone2:hover
+{
+	background-color:black;
+
+}
+.nemoone2:hover .nemoonetxt
+{
+	color:white;
+
+}
+.nemoone3
+{
+			background: url("../images/nemoone2.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	float:right;
+	width:280px;
+	height:350px;
+	margin-right:30px;
+	
+	background-color:white;
+		transition:background-color 1s;
+}
+.nemoone3:hover
+{
+	background-color:black;
+
+}
+.nemoone3:hover .nemoonetxt
+{
+	color:white;
+
+}
+.nemoonetxt
+{
+margin-top:200px;
+	text-align: center;
+	direction: rtl;
+	font-family: nazanin;
+	font-size: 24px;
+	font-weight: bold;
+}
+.nemoonetxts
+{
+	color:gray;
+	font-size:16px;
+}
+.nemoonein
+{
+	/*background-color:#0082f0;*/
+	width:230px;
+	height:50px;
+	margin:20px auto 0;
+	text-decoration: none;
+	
+
+}
+.nemooneintxt
+{
+	color:white;
+	text-align: center;
+	font-size:20px;
+	text-decoration: none;
+	font-family: nazanin;
+background-color:#0082f0;
+	padding:12px 74px 12px;
+	display:inline-block;
+}
+.nemoonelink
+{
+text-decoration: none;	
+}
+.nemoonebishtar
+{
+	margin:25 auto 0;
+	width:200px;
+	height:70px;
+	
+}
+
+.nemoonebishtartxt
+{
+	box-shadow:0 2px 10px  rgba(0,0,0,0.2),0 2px 10px  rgba(0,0,0,0.2);
+	text-decoration: none;
+	padding: 10 50 0 60;
+	border-radius:50px;
+	color:rgba(212,83,7,1.00);
+	font-weight:700;
+	font-family:nastaligh;
+	background-color:white;
+	transition: box-shadow 0.3s;
+	float: right;
+	
+}
+.nemoonebishtartxt:hover
+{
+	box-shadow:0 2px 10px  rgba(0,0,0,0.2),0 4px 15px  rgba(0,0,0,0.4);
+	transition: 0.3s ease-out;
+	 
+}
+.nemoonebishtartxt::after
+{
+	font-weight:900;
+	font-size:24;
+	content: '→';
+	padding-left:10px;
+
+
+}
+
+
+
+.bottommenu
+{
+	
+	margin:0 auto 0;
+	border-top:2px solid orangered;
+	width:100%;
+	margin-top:-40px;
+	text-align: center;
+	
+	font-weight: bold;
+	float: right;
+}
+.bottommenutxt
+{
+text-align:center;
+	margin:0 auto 0;
+	margin-top: 8px;
+	font-family: nazanin;
+}
+
+
+
+
+/*------------------------------------------------------------------------------------------*/
+	
+	@media  screen and (max-width : 610px ) and  (min-width:358px)
+	{
+		.heddermenuin
+		{
+			width:345px;
+		}
+			.logoarea
+	{
+display: none;
+
+	}
+	.ulright
+	{
+		margin-right:0;
+		float:left;
+		margin-top:30px;
+			margin-left:-40;
+	
+	}
+	.ulleft{
+		margin-right:0;
+		float:left;
+		margin-top:10px;
+		margin-left:-40;
+	}
+.d1
+		{
+			
+			height:1450px;
+		}
+.divkhadamat
+		{
+			height:1260px;
+			width:280px;
+		}
+		.khadamat2
+		{
+			margin-right:0;
+			margin-top:30px;
+		}		
+		.khadamat3
+		{
+			margin-right:0;
+			margin-top:30px;
+		}
+	.d2
+	{
+		height:2500px;	
+	}
+	
+.divnemoone
+		{
+			width:280px;
+			height:1110px;
+		}
+		.nemoone2
+		{
+			margin-right:0;
+			margin-top:30px;
+		}		
+		.nemoone3
+		{
+			margin-right:0;
+			margin-top:30px;
+		}
+
+.bottommenu
+		{
+			margin-top:-40px;
+		}
+				.heddermenu
+		{
+			width:100%;
+
+		}
+		
+	}
+
+
+
+
+@media screen and (max-width:920px)and (min-width:610px)
+{
+.heddermenuin
+	{
+		width:600px;
+	}
+	.logoarea
+	{
+	margin-top:10px;
+		margin-right:40px;
+
+	}
+	.ulright
+	{
+		float:left;
+		margin-top:35px;
+			margin-left:17px;
+	}
+	.ulleft{
+		float:left;
+		margin-top:0px;
+		margin-left:16px;
+	}
+
+	.d2
+	{
+		height:1750px;
+	}
+
+	.divnemoone
+	{
+		width:590px;
+		height:720px;
+	}
+	.nemoone2
+	{
+		margin-right:30;
+		
+	}	
+	.nemoone3
+	{
+		margin-right:0;
+		margin-top:20px;
+	}
+
+	.d1
+	{
+	height:1000px;	
+	}
+		.divkhadamat
+	{
+		width:590px;
+		height:818px;
+	}
+	.khadamat3
+	{
+		margin-right:0;
+		margin-top:20px;
+	}
+	.d3
+	{
+		height: 670px;
+	}
+	.bottommenu
+	{
+		margin-top:-40px;
+	}
+
+	
+}

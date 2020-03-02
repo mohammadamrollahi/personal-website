@@ -1,0 +1,336 @@
+body
+{
+	margin:0 auto 0;
+}
+
+.hedder
+{
+	background-image: url('../images/background.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+	background-size: cover;
+	
+	width: 100%;
+	height:360px;
+	float:right;
+
+
+}
+
+.h1in
+{
+		font-size:20;
+	
+	padding-right:100px;
+	text-shadow:  0px 1px 10px ;
+	font-family: khodkar;
+	
+}
+.heddermenu
+{
+
+	width:100%;
+	height:130px;
+	background:linear-gradient(to bottom, rgba(0,0,0,0.6)20%, rgba(0,0,0,0));
+margin:auto;
+
+	}
+.heddermenuin
+{
+	width:926px;
+	height:130px;
+	margin:0 auto 0;
+
+}
+.ulright
+{
+	margin-top:50px;
+	float:right;
+margin-right:16px;
+
+}
+.li1
+{
+	
+	list-style-type: none;
+	float:right;
+	margin-right:20px;
+	font-size:16px;
+	color:white;
+	font-family: nazanin;
+	font-weight: bold;
+}
+.li11
+{
+	list-style-type: none;
+	float:right;
+	
+	font-size:16px;
+	color:orange;
+	font-family: nazanin;
+	font-weight: bold;
+}
+.logoarea
+{
+	float:right;
+	
+	width:110px;
+	height:110px;
+	margin:2 -15 0 0 ;
+	border-radius: 50%;
+	border:2px solid orange;
+	background-color:rgba(0,0,0,0.30)
+}
+.logoimg
+{
+	width:110px;
+	height:110px;
+	
+	margin-top: 5.5px;
+	
+}
+.ulleft
+{
+	margin-top:50px;
+	float:right;
+	margin-right:25px;
+}
+.li21
+{
+	list-style-type: none;
+	float:right;
+
+	font-size:16px;
+	color:white;
+	font-family: nazanin;
+	font-weight: bold;
+		
+}
+.li2
+{
+		list-style-type: none;
+	float:right;
+	margin-right:20px;
+	font-size:16px;
+	color:white;
+	font-family: nazanin;
+	font-weight: bold;
+
+}
+.li2:hover
+{
+	color:orange;
+}
+.li21:hover
+{
+	color:orange;
+}
+.a1
+{
+
+
+	font-size:16px;
+	color:white;
+	font-family: nazanin;
+	font-weight: bold;
+	text-decoration:none;
+}
+.a11
+{
+
+
+	font-size:16px;
+	color:orange;
+	font-family: nazanin;
+	font-weight: bold;
+	text-decoration:none;
+}
+.a1:hover
+{
+	color:orange;
+}
+.a2
+{
+
+
+	font-size:16px;
+	color:white;
+	font-family: nazanin;
+	font-weight: bold;
+	text-decoration:none;
+}
+.a21
+{
+
+
+	font-size:16px;
+	color:orange;
+	font-family: nazanin;
+	font-weight: bold;
+	text-decoration:none;
+}
+.a2:hover
+{
+	color:orange;
+}
+.addrestxt
+{
+	text-align: center;
+	margin-top:190px;
+	color:orange;
+	font-family:nazanin;
+	font-weight:800;
+	
+}
+.d2
+{
+	width:100%;
+	height:150px;
+	background-color:white;
+	float:right;
+}
+.abouttexttitr
+{
+	text-align: center;
+margin-top:60px;
+	font-family:nazanin;
+	font-weight:900;
+	font-size:24;
+}
+.d3
+{
+		width:100%;
+	height:500px;
+		background-color:rgba(255,142,0,0.8);
+	float:right;
+
+}
+.modelimg
+{
+	height:600px;
+	width:400px;
+	margin-top:-150px;
+	margin-left:50px;
+	float:left;
+}
+.abouttext
+{
+
+	font-size:20;
+	text-align: justify;
+	direction: rtl;
+	font-family:nazanin;
+	font-weight:600;
+	color: white;
+	margin-top:8%;
+	margin-right:10px;
+	line-height:22px;
+}
+.bottommenu
+{
+	
+	margin:0 auto 0;
+	border-top:2px solid orangered;
+	width:100%;
+	margin-top:-40px;
+	text-align: center;
+	
+	font-weight: bold;
+	float: right;
+}
+.bottommenutxt
+{
+text-align:center;
+	margin:0 auto 0;
+	margin-top: 8px;
+	font-family: nazanin;
+}
+
+	@media  screen and (max-width : 610px ) and  (min-width:358px)
+	{
+		.heddermenuin
+		{
+			width:345px;
+		}
+			.logoarea
+	{
+display: none;
+
+	}
+	.ulright
+	{
+		margin-right:0;
+		float:left;
+		margin-top:30px;
+			margin-left:-40;
+	
+	}
+	.ulleft{
+		margin-right:0;
+		float:left;
+		margin-top:10px;
+		margin-left:-40;
+	}
+	.modelimg
+	{
+	height:270px;
+	width:180px;
+	margin-top:-50px;
+	margin-right:0px;
+		margin-left:0;
+	float:right;
+	}
+	.d3
+	{	
+	height:650px;
+	}
+	.abouttext
+	{
+	margin-left:2%;
+	margin-top:17%;
+	}
+
+	}
+	
+@media screen and (max-width:920px)and (min-width:610px)
+{
+.heddermenuin
+	{
+		width:600px;
+	}
+	.logoarea
+	{
+	margin-top:10px;
+		margin-right:40px;
+
+	}
+	.ulright
+	{
+		float:left;
+		margin-top:35px;
+			margin-left:17px;
+	}
+	.ulleft{
+		float:left;
+		margin-top:0px;
+		margin-left:16px;
+	}
+	.d3
+	{	
+	height:570px;
+	}
+	.modelimg
+	{
+	height:450px;
+	width:300px;
+	margin-top:-100px;
+	margin-right:0;
+	float:right;
+	}
+.abouttext
+	{
+		margin-top:10%;
+		margin-left:2%;
+	}
+}
