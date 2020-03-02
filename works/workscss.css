@@ -240,7 +240,7 @@ margin-right:16px;
 	width:280px;
 	height:350px;
 	
-	background: url("../images/nemoone2.png");
+	background: url("../images/nemoone3.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-color:white;
@@ -256,7 +256,7 @@ margin-right:16px;
 	color:white;
 
 }
-.nemoone2
+.firstnemoone2
 {
 	
 	float:right;
@@ -264,6 +264,29 @@ margin-right:16px;
 	height:350px;
 	margin-right:30px;
 		background: url("../images/nemoone2.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color:white;
+		transition:background-color 1s;
+}
+.firstnemoone2:hover
+{
+	background-color:black;
+
+}
+.firstnemoone2:hover .nemoonetxt
+{
+	color:white;
+
+}
+.nemoone2
+{
+	
+	float:right;
+	width:280px;
+	height:350px;
+	margin-right:30px;
+		background: url("../images/nemoone3.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-color:white;
@@ -281,7 +304,7 @@ margin-right:16px;
 }
 .nemoone3
 {
-			background: url("../images/nemoone2.png");
+			background: url("../images/nemoone3.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	float:right;
